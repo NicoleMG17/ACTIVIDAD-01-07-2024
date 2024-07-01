@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabla en HTML</title>
+        <meta charset="UTF-8"/>
+        <style>
+            table{
+               width: 80;
+               border-collapse: collapse;
+               margin: 20px auto; 
+            }
+            th, td{
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+            th{
+                background-color: #f2f2f2;
+            }
+            .header{
+                font-weight: bold;
+                background-color: #d9d9d9;
+            }
+            .red{
+                background-color: #ff9999;
+            }
+            .green{
+                background-color: #99ff99;
+            }
+            .yellow{
+                background-color: #ffff99;
+            }
+            .blue{
+                background-color: #99ccff;
+            }
+            .purple{
+                background-color: #cc99ff;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Horario de Grupo</h2>
+        <h3 style="text-align: center;">Periodo 2024/3</h3>
+        <h4 style="text-align: center;">LICENCIATURA EN DERECHO</h4>
+        <h5 style="text-align: center;">CUATRIMESTRE: 9°</h5>
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>17:00 - 18:30</td>  
+                <td class="red">DERECHO ADUANAL</td>
+                <td class="red">DERECHO ADUANAL</td>
+                <td class="yellow">DERECHO DE LA PROPIEDAD INTELECTUALl</td>
+                <td class="yellow">DERECHO DE LA PROPIEDAD INTELECTUAL</td>
+                <td class="purple">DERECHO ELECTORAL
+                    <div>19:00pm - 21:00pm</div>
+                </td>
+            </tr>
+            <tr>
+                <td>18:30 - 20:00</td>
+                <td class="green">PRACTICA FORENSE DE DERECHO FISCAL</td>
+                <td class="green">PRACTICA FORENSE DE DERECHO FISCAL</td>
+                <td class="blue">DERECHO INTERNACIONAL PRIVADA</td>
+                <td class="blue">DERECHO INTERNACIONAL PRIVADA</td>
+                <td class="purple">DERECHO ELECTORAL
+                    <div>19:00pm - 21:00pm</div>
+                </td>
+            </tr>
+        </table>
+        <br>
+            <table>
+            <tr>
+                <th>CLAVE</th>
+                <th>ASIGNATURAS</th>
+                <th>MODULO SEM</th>
+                <th>PROFESOR</th>
+                <th>LIGA DE ACCESO</th>
+            </tr>
+            <tr>
+                <td class="yellow">LDER0941</td>
+                <td class="yellow">DERECHO DE LA PROPIEDAD INTELECTUAL</td>
+                <td>14 SEMANAS</td>
+                <td>SANCHEZ VILCHIS GABRIELA</td>
+                <td>----------------</td>
+            </tr>
+            <tr>
+                <td class="purple">LDER0942</td>
+                <td class="purple">DERECHO ELECTORAL</td>
+                <td>14 SEMANAS</td>
+                <td>GOMEZ SALGADO ALBERTO</td>
+                <td>----------------</td>
+            </tr>
+            <tr>
+                <td class="red">LDER0943</td>
+                <td class="red">DERECHO ADUANAL</td>
+                <td>14 SEMANAS</td>
+                <td>BLANQUEL ZARATE SERGIO IVAN</td>
+                <td>----------------</td>
+            </tr>
+            <tr>
+                <td class="green">LDER0944</td>
+                <td class="green">PRCATICA FORENSE DE DERECHO FISCAL</td>
+                <td>14 SEMANAS</td>
+                <td>DOLORES PEREZ BRYAN DE JESUS</td>
+                <td>----------------</td>
+            </tr>
+            <tr>
+                <td class="blue">LDER0945</td>
+                <td class="blue">DERECHO INTERNACIONAL PRIVADO</td>
+                <td>14 SEMANAS</td>
+                <td>PALOMINO DOMINGUEZ JESUS DANIEL</td>
+                <td>----------------</td>
+            </tr>
+        </table>
+    </body>
+</html>

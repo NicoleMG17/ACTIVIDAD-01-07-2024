@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabla en HTML</title>
+        <meta charset="UTF-8"/>
+        <style>
+            table{
+               width: 80;
+               border-collapse: collapse;
+               margin: 20px auto; 
+            }
+            th, td{
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+            th{
+                background-color: #f2f2f2;
+            }
+            .header{
+                font-weight: bold;
+                background-color: #d9d9d9;
+            }
+            .red{
+                background-color: #ff9999;
+            }
+            .green{
+                background-color: #99ff99;
+            }
+            .yellow{
+                background-color: #ffff99;
+            }
+            .blue{
+                background-color: #99ccff;
+            }
+            .purple{
+                background-color: #cc99ff;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Horario de Grupo</h2>
+        <br>
+        <h3 style="text-align: center;">Periodo 2024/2</h3>
+        <br>
+        <h4 style="text-align: center;">LICENCIATURA EN INGENIERIA EN SISTEMAS COMPUTACIONALES</h4>
+        <br>
+        <h5 style="text-align: center;">GRUPO: ELISC901</h5>
+        <br>
+        <h6 style="text-align: center;">CUATRIMESTRE: 7°</h6>
+    <table>
+        <tr class="head">
+            <th>HORA</th>
+            <th>SABADO</th>
+        </tr>
+        <tr class="gray">
+            <td>08:00 - 09:30</td>
+            <td class="red">DESARROLLADOR DE APLICACIONES WEB</td>
+        </tr>
+        <tr class="gray">
+            <td>09:30 - 11:00</td>  
+            <td class="yellow">GESTION DE PROYECTOS INFORMATICOS</td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>  
+            <td>DESCANSO</td>
+        </tr>
+        <tr class="gray">
+            <td>12:00 - 13:30</td>  
+            <td class="blue">LEGISLACION INFORMATICA</td>
+        </tr>
+        <tr class="gray">
+            <td>13:30 - 15:00</td>
+            <td class="green">DESARROLLO DE APLICACIONES MOVILES</td>
+        </tr>
+        <tr class="gray">
+            <td>17:00 - 19:00</td>
+            <td class="purple">INTELIGENCIA DE NEGOCIOS</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>CLAVE</th>
+            <th>ASIGNATURA</th>
+            <th>HRS-SEM</th>
+            <th>PROFESOR</th>
+            <th>MODALIDAD</th>
+        </tr>
+        <tr>
+        <td class="red">MINSC0941</td>
+        <td class="red">DESARROLLO DE APLICACIONES WEB</td>
+        <td class="red">----------------</td>
+        <td class="red">MORENO GARDUÑO JEFFERY</td>
+        <td class="red">----------------</td>
+        </tr>
+        <tr>
+            <td class="yellow">MINSC0838</td>
+            <td class="yellow">GESTION DE PROYECTOS INFORMATICOS</td>
+            <td class="yellow">----------------</td>
+            <td class="yellow">CRUZ ALBARRAN MARIANO</td>
+            <td class="yellow">----------------</td>
+        </tr>
+        <tr>
+            <td class="green">MINSC0942</td>
+            <td class="green">DESARROLLO DE APLICACIONES MOVILES</td>
+            <td class="green">----------------</td>
+            <td class="green">GOMEZ ANGELES FERNANDO DANIEL</td>
+            <td class="green">----------------</td>
+        </tr>
+        <tr>
+            <td class="purple">MINSC0944</td>
+            <td class="purple">INTELIGENCIA DE NEGOCIOS</td>
+            <td class="purple">----------------</td>
+            <td class="purple">VERONA GUTIERREZ VICTOR MANUEL</td>
+            <td class="purple">ON LINE compactado con MCE1LISC900-Rectoria</td>
+        </tr>
+        <tr>
+            <td class="blue">MINSC0945</td>
+            <td class="blue">LEGISLACION INFORMATICA</td>
+            <td class="blue">----------------</td>
+            <td class="blue">MARIO ALBERTO GARCIA</td>
+            <td class="blue">----------------</td>
+        </tr>
+    </table>
+</body>
+</html>
